@@ -22,12 +22,12 @@ public class Main {
             }
         }
 
-        ExecutorService executor = Executors.newFixedThreadPool(20); // 20 hilos
+        ExecutorService executor = Executors.newFixedThreadPool(20);
 
         for (int i = 0; i < 10_000; i++) {
             executor.submit(() -> {
-                int cuentaId = rand.nextInt(10); // ID de cuenta entre 0 y 9
-                double monto = rand.nextDouble() * 1000; // monto entre 0 y 1000
+                int cuentaId = rand.nextInt(10);
+                double monto = rand.nextDouble() * 1000;
                 boolean agregar = rand.nextBoolean();
 
                 if (agregar) {
