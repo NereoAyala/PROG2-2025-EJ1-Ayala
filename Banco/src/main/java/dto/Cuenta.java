@@ -6,7 +6,7 @@ public abstract class Cuenta {
     public Cuenta(double saldoInicial) {
         this.saldo = saldoInicial;
     }
-    
+
     public synchronized double obtenerSaldo() {
         return saldo;
     }
