@@ -76,4 +76,14 @@ public class LogicaCuenta {
     public List<Cuenta> getCuentas() {
         return cuentas;
     }
+
+    public Cuenta getCuenta(int indice)
+    {
+        if (esIndiceValido(indice)) {
+            return cuentas.get(indice);
+        } else{
+            System.out.println("Indice no Valido: "+indice);
+            return null;
+        }
+    }
 }

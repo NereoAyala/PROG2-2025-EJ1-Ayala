@@ -24,7 +24,7 @@ public class Main {
 
         ExecutorService executor = Executors.newFixedThreadPool(20);
 
-        for (int i = 0; i < 10_000; i++) {
+        for (int i = 0; i < 10.000; i++) {
             executor.submit(() -> {
                 int cuentaId = rand.nextInt(10);
                 double monto = rand.nextDouble() * 1000;
@@ -37,6 +37,27 @@ public class Main {
                 }
             });
         }
-        
+        executor.shutdown();
+        while (!executor.isTerminated()) {
+        }
+
+        System.out.println("---- RESULTADOS ----");
+        for (int i = 0; i < 10; i++) {
+            Cuenta cuenta = logica.getCuenta(i);
+
+            int operaciones = 0;
+
+            if (cuenta instanceof CajaDeAhorro) {
+                operaciones = ((CajaDeAhorro) cuenta).getOperaciones();
+            } else if (cuenta instanceof CuentaCorriente) {
+                operaciones = ((CuentaCorriente) cuenta).getOperaciones();
+            }
+
+            System.out.printf("Cuenta %d (%s): Saldo final = %.2f | Movimientos = %d%n",
+                    i,
+                    cuenta.getClass().getSimpleName(),
+                    cuenta.obtenerSaldo(),
+                    operaciones);
+        }
     }
 }
