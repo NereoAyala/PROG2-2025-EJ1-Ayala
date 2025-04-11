@@ -52,6 +52,5 @@ public class CajaCorrienteDTO {
         {
             return new CajaCorrienteDTO(this);
         }
-
     }
 }
