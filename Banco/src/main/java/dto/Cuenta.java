@@ -3,8 +3,8 @@ package dto;
 public abstract class Cuenta {
     protected double saldo;
 
-    public Cuenta(double saldo) {
-        saldo = saldo;
+    public Cuenta(double saldoInicial) {
+        this.saldo = saldoInicial;
     }
 
     protected synchronized boolean operar(double monto) {
