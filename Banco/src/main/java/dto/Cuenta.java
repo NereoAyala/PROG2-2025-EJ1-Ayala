@@ -16,7 +16,7 @@ public abstract class Cuenta {
         return saldo >= monto;
     }
 
-    protected synchronized double obtenerSaldo() {
+    public synchronized double obtenerSaldo() {
         return saldo;
     }
 }
