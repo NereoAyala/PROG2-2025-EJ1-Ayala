@@ -25,6 +25,11 @@ public class LogicaCuenta {
         return instance;
     }
 
+    public synchronized void setCuentas(List<Cuenta> cuentasIniciales) {
+        Cuentas.clear();
+        Cuentas.addAll(cuentasIniciales);
+    }
+
     public void agregarCuenta(Cuenta cuenta)
     {
         Cuentas.add(cuenta);
