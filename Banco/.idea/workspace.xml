@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ed3ef5c-f93f-4cb2-a78c-c5e4490f4622" name="Changes" comment="" />
+    <list default="true" id="8ed3ef5c-f93f-4cb2-a78c-c5e4490f4622" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Banco/services/LogicaCuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Banco/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Banco/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Banco [:org.Banco.Main.main()].executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
