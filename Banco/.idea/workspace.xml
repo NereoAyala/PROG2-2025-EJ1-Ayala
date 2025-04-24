@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ed3ef5c-f93f-4cb2-a78c-c5e4490f4622" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/PROG2-2025-EJ1-Ayala.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Banco/dto/CajaDeAhorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Banco/dto/Cuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Banco/dto/CuentaCorriente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Banco/dto/TGestionSaldo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/CajaCorrienteDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/CajaDeAhorro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/CajaDeAhorroDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/Cuenta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/CuentaCorriente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/IGestionSaldo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servicios/LogicaCuenta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servicios/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="8ed3ef5c-f93f-4cb2-a78c-c5e4490f4622" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
